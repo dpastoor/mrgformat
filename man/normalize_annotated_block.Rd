@@ -12,4 +12,3 @@ normalize_annotated_block(text)
 \description{
 normalize an annotated block
 }
-
