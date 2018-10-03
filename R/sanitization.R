@@ -21,5 +21,6 @@ sanitize_fortran <- function() {
     range_start <- context$selection[[1L]]$range$start[[1L]]
     range_end   <- context$selection[[1L]]$range$end[[1L]]
     new_text <- sanitize_fortran_code(text[range_start:range_end])
+    print(new_text)
     return(new_text)
 }
