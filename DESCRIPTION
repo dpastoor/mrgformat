@@ -12,7 +12,8 @@ Depends:
 Imports:
     rstudioapi,
     purrr,
-    stringr
+    stringr,
+    magrittr
 License: MIT + file LICENSE
 VignetteBuilder: knitr
 RoxygenNote: 6.1.0
