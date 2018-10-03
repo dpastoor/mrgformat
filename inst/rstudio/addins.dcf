@@ -2,3 +2,8 @@ Name: normalize annotated block
 Description: makes even spacing for all annotated block lines
 Binding: normalize_annotated_block_addin
 Interactive: false
+
+Name: sanitize fortran files from nonmem
+Description: code generate names for read in fortran files
+Binding: sanitize_fortran
+Interactive: false
