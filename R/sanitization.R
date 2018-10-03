@@ -1,6 +1,6 @@
 sanitize_fortran_code <- function(.x) {
     cleaned_vals <- paste0(.x, collapse = "") %>%
-        stringr::str_replace_all("&", "") %>%
+        stringr::str_replace_all('[&"]', "") %>%
         stringr::str_replace(".*ITER_REPORT,", "") %>%
         stringr::str_replace_all("\\)\\s?,", "): ") %>%
         stringr::str_replace_all(",(?=\\s)", ": ") %>%
